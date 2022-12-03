@@ -1,6 +1,6 @@
 fun main() {
     fun part1AsChoice(letter: Char): String? {
-        return when(letter) {
+        return when (letter) {
             'A', 'X' -> "Rock"
             'B', 'Y' -> "Paper"
             'C', 'Z' -> "Scissors"
@@ -42,7 +42,7 @@ fun main() {
     }
 
     fun pointsForChoice(choice: String): Int {
-        return when(choice) {
+        return when (choice) {
             "Rock" -> 1
             "Paper" -> 2
             "Scissors" -> 3
